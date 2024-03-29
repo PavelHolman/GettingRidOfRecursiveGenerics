@@ -8,7 +8,7 @@ public class EmployeeBuilder : PersonBuilder
 
 public static class EmployeeBuilderExt
 {
-    public static T WorksAt<T>(this T builder, string company)
+    public static T Company<T>(this T builder, string company)
         where T : EmployeeBuilder
     {
         builder.SetCompany(company);

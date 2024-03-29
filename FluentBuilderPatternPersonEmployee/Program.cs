@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Linq;
 
 var employee1 = new EmployeeBuilder()
-    .WorksAt("Google")
+    .Company("Google")
     .Salary(60000)
     .Name("Alex")
     .Age(27)
@@ -11,7 +11,7 @@ var employee1 = new EmployeeBuilder()
 
 var employee2 = new EmployeeBuilder()
     .Name("Bob")
-    .WorksAt("Microsoft")
+    .Company("Microsoft")
     .Age(55)
     .Salary(10)
     .IsMale(true)
@@ -19,7 +19,7 @@ var employee2 = new EmployeeBuilder()
 
 var employee3 = new EmployeeBuilder()
     .Name("Alice")
-    .WorksAt("Apple")
+    .Company("Apple")
     .Salary(69420)
     .Age(29)
     .IsMale(false)
