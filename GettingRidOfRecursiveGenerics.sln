@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderPatternPerson", "FluentBuilderPatternPerson\FluentBuilderPatternPerson.csproj", "{9F38894C-99B7-4AD5-B10E-B276C4214DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderPatternPersonEmployee", "FluentBuilderPatternPersonEmployee\FluentBuilderPatternPersonEmployee.csproj", "{AB7ED1A9-E43F-475E-9362-E05AD21917A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F38894C-99B7-4AD5-B10E-B276C4214DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F38894C-99B7-4AD5-B10E-B276C4214DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F38894C-99B7-4AD5-B10E-B276C4214DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F38894C-99B7-4AD5-B10E-B276C4214DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7ED1A9-E43F-475E-9362-E05AD21917A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7ED1A9-E43F-475E-9362-E05AD21917A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7ED1A9-E43F-475E-9362-E05AD21917A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7ED1A9-E43F-475E-9362-E05AD21917A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
