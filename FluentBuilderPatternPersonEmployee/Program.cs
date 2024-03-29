@@ -27,7 +27,7 @@ var employee3 = new EmployeeBuilder()
 
 var person = new PersonBuilder()
     .Name("Benedict")
-    // .WorksAt("") // Compile Error
+    // .Company("") // Compile Error
     .Age(18)
     // .Salary(-42) // Compile Error
     .IsMale(true)
