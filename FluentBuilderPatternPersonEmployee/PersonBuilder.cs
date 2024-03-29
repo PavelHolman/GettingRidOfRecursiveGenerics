@@ -1,8 +1,9 @@
 ﻿namespace FluentBuilderPatternPersonEmployee;
 
-public class PersonBuilder
+public class PersonBuilder(Person? person = null)
 {
-    protected readonly Person Person = new();
+    protected readonly Person Person = person ?? new Person();
+
     public void SetName(string name) => this.Person.Name = name;
     public void SetAge(int age) => this.Person.Age = age;
     public void SetIsMale(bool isMale) => this.Person.IsMale = isMale;

@@ -1,9 +1,9 @@
 ﻿namespace FluentBuilderPatternPersonEmployee;
 
-public class EmployeeBuilder : PersonBuilder
+public class EmployeeBuilder(Employee? employee = null) : PersonBuilder(employee ?? new Employee())
 {
-    public void SetCompany(string company) => this.Person.Company = company;
-    public void SetSalary(int salary) => this.Person.Salary = salary;
+    public void SetCompany(string company) => ((Employee)this.Person).Company = company;
+    public void SetSalary(int salary) => ((Employee)this.Person).Salary = salary;
 }
 
 public static class EmployeeBuilderExt
